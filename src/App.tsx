@@ -158,7 +158,7 @@ const App: React.FC = () => {
           </div>
         </div>
         <footer className="text-center mt-8 text-taupe text-sm">
-          <p>&copy; {new Date().getFullYear()} 溫馨工作室. 祝您編織愉快！</p>
+          <p>&copy; {new Date().getFullYear()} 口苗工作室. 祝您編織愉快！</p>
         </footer>
       </main>
     </div>
