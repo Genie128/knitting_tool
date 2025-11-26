@@ -1,0 +1,5 @@
+{
+  "name": "knitting-calculator",
+  "description": "一個現代化、行動裝置友善的工具，幫助編織愛好者根據他們的織片密度計算作品所需的針數。支援公制與英制單位、鬆份（寬容度）調整，以及花樣針數計算。",
+  "requestFramePermissions": []
+}
