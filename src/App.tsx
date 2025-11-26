@@ -4,7 +4,7 @@ import type { CalculationResult } from './types';
 import UnitToggle from './components/UnitToggle';
 import InputField from './components/InputField';
 import ResultsDisplay from './components/ResultsDisplay';
-import { YarnBallIcon, RulerIcon } from './components/icons';
+import { YarnBallIcon } from './components/icons';
 
 const App: React.FC = () => {
   const [unitSystem, setUnitSystem] = useState<UnitSystem>(UnitSystem.METRIC);
@@ -107,8 +107,7 @@ const App: React.FC = () => {
           {/* Inputs Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h2 className="text-lg font-bold font-serif text-stone-text mb-4 flex items-center gap-2">
-                <RulerIcon className="w-5 h-5 text-taupe" />
+              <h2 className="text-lg font-bold font-serif text-stone-text mb-4">
                 您的織片密度
               </h2>
               <InputField
